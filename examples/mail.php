@@ -7,12 +7,13 @@ require '../PHPMailerAutoload.php';
 
 //Create a new PHPMailer instance
 $mail = new PHPMailer;
+
 //Set who the message is to be sent from
-$mail->setFrom('from@example.com', 'First Last');
+$mail->setFrom('hexiaoyuhit@163.com', 'From who');
 //Set an alternative reply-to address
-$mail->addReplyTo('replyto@example.com', 'First Last');
+$mail->addReplyTo('hexiaoyuhit@gmail.com', 'Reply to');
 //Set who the message is to be sent to
-$mail->addAddress('whoto@example.com', 'John Doe');
+$mail->addAddress('hexiaoyuhit@163.com', 'to who');
 //Set the subject line
 $mail->Subject = 'PHPMailer mail() test';
 //Read an HTML message body from an external file, convert referenced images to embedded,
